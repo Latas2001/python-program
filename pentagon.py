@@ -1,0 +1,16 @@
+import turtle
+window=turtle.Screen()
+window.bgcolor("black")
+turtle=turtle.Turtle()
+turtle.shape("turtle")
+turtle.color("red")
+turtle.width(8)
+turtle.left(90)
+turtle.forward(120)
+turtle.left(60)
+turtle.forward(120)
+for i in range(6):
+    turtle.left(60)
+    turtle.forward(120)
+    turtle.circle(41)
+window.exitonclick()
